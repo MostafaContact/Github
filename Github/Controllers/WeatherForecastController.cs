@@ -17,6 +17,7 @@ namespace Github.Controllers
         {
             _logger = logger;
             var FirstChange = "Mustafa";
+            var mainBranch = "mainBranch";
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
