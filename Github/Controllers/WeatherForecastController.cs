@@ -8,7 +8,7 @@ namespace Github.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Mustafa"
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
@@ -16,6 +16,7 @@ namespace Github.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
+            var FirstChange = "Mustafa";
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
