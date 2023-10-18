@@ -16,7 +16,10 @@ namespace Github.Controllers
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
-            var FirstChange = "Mustafa";
+            var FirstChange1 = "Mustafa";
+            var FirstChange2 = "Mustafa";
+            var FirstChange3 = "Mustafa";
+            var FirstChange4 = "Mustafa";
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
